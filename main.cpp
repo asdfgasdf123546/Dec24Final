@@ -92,7 +92,7 @@ int main() {
 
         case 7:
             system("color f0");
-            cout << "You are now in a bright room with a chest. Would you like to open it or go south?" << endl;
+            cout << "You are now in a bright room go south" << endl;
             getline(cin, input);
             if (input == "west" || input == "w")
                 room = 5;
